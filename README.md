@@ -1,4 +1,4 @@
-This project is based on [Vonage Video Blueprint project by GenesysCloudBlueprints](https://github.com/GenesysCloudBlueprints/vonage-video-blueprint)
+This project is based on [Vonage Video Blueprint project by GenesysCloudBlueprints](https://github.com/GenesysCloudBlueprints/vonage-video-blueprint).
 
 ---
 
