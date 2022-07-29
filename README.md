@@ -9,7 +9,7 @@ Deploying to Neru is straightforward and easy.
 2. Copy the codes in this repository over to the Neru project.
 3. Replace the contents inside `neru.yml` with the contents inside `neru.yml.example` file, except for the `project.name`, `instance.region` and `instance.application-id`
 
-| Field Name                                      | Required | Description                                                                                                                      |   |
+| Field Name                                      | Required | Description                                                                                                                      |
 |-------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|
 | appURI                                          | Yes      | This should be your Neru app's second url.<br />e.g. https://neru-12345678-sample-app-dev.apse1.serverless.vonage.com/                 |
 | vonage.apiKey<br />vonage.apiSecret                  | Yes      | Vonage application credentials                                                                                                   |
