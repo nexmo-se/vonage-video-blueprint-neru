@@ -1,0 +1,30 @@
+project:
+    name: sample-project-name
+instance:
+    name: dev
+    runtime: nodejs16
+    region: aws.region
+    application-id: 
+    configurations:
+        testMode: false,
+        appURI: 
+        vonage:
+            apiKey: 
+            apiSecret: 
+        genesysCloud:
+            region: 
+            implicitGrantID: 
+            clientID: 
+            clientSecret: 
+            emailQueueID: 
+            smsFromAddress: 
+    capabilities: []
+    entrypoint:
+        - node
+        - web-server.js
+debug:
+    name: debug
+    entrypoint:
+        - nodemon
+        - --inspect
+        - web-server.js
